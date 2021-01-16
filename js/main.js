@@ -75,6 +75,6 @@ function showZodiac(zodiac){
     document.querySelector("#message").innerText = zodiac.zodiacMessage;
     document.querySelector("#sign").innerText = zodiac.zodiacSign;
     let element = document.querySelector(".img-responsive");
-    element.style.display = "inline-block";
+    element.style.display = "block";
     element.attributes.src.nodeValue = zodiac.zodiacImage;
 }
